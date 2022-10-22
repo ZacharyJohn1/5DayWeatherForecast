@@ -22,6 +22,7 @@ fetch("http://api.openweathermap.org/data/2.5/weather?q=" + inputValue.value + "
     temp.innerHTML = tempValue;
     info.innerHTML = infoValue; 
   })
+.catch(err => alert("An error has occured"))
+localStorage.setItem('history', inputValue.value)
 
-.catch(err => alert("Wrong City Name"))
 })
