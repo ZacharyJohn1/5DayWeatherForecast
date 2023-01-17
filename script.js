@@ -5,7 +5,6 @@ var city = document.querySelector('.name');
 var info = document.querySelector('.info');
 var temp = document.querySelector('.temp');
 //api variables
-// var apiKey = "4e68fd57939ff2714be1395487193b1c";
 // var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + inputValue.value + "&appid=afb5b72bbfeb24f2bb505fea559e91cd";
 //create event listener for button
 button.addEventListener('click', function(){
